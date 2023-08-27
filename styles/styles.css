@@ -1,0 +1,43 @@
+.miku{
+    width: 100%;
+    height: 60%;
+    background-image: url(/images/img-001.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.miku-text{
+    display: flex;
+    width: 100%;
+    height: 20%;
+    justify-content: center;
+    padding: 20px;
+}
+
+.bocadillo-cuadrado {
+    position: relative;
+    display: flex;
+    width: 300px;
+    background: #FCBAAD;
+    box-shadow: 1px 12px 33px rgba(0, 0, 0, 0.5);
+}
+.bocadillo-cuadrado:before {
+    border: 25px solid #FCBAAD;
+    content: '';
+    border-left-color: transparent;
+    border-bottom-color: transparent;
+    border-right-color: transparent;
+    position: absolute;
+    bottom: -48px;
+    left: calc(50% - 25px);
+}
+
+.bocadillo-cuadrado p{
+    padding: 10px;
+    font-family: 'Comfortaa', cursive;
+    font-size: 16px;
+    text-align: justify;
+    font-weight: 600;
+    color: #916DB3;
+}
